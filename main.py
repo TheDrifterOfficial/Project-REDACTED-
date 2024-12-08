@@ -94,6 +94,9 @@ else:
     else:
         if player_class == "P":
             player_class_name = "Python"
+        else:
+            if player_class == "J":
+                player_class_name = "Joker"
 delay_print("\n")
 delay_print(n)
 delay_print(", you are now a ")
