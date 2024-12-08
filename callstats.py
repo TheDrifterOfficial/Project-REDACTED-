@@ -1,5 +1,4 @@
 from delayed_print import*
-from main import*
 resistance=0
 durability=0
 socialism=0
