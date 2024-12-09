@@ -2,12 +2,11 @@ from delayed_print import*
 from callstats import*
 
 def class_armor_selection():
-    delay_print("\nAs part of you helping us, you will need some armour and weapons.")
+    delay_print("\nAs part of you helping us, you will need some armour.")
     delay_print("\nPlease select your armour:")
     delay_print("\nIron Armour (+40 resistance, 7/10 durability) / Leather Armour (+30 resistance, 10/10) / Chainmail Armour (+60 resistance, 4/10 durability)")
     delay_print("\nI for Iron, L for Leather, C for Chainmail: ")
     a=str(input(""))
-    player_class=str
     if a == "I" or a == "L" or a == "C":
         1+1
     else:
@@ -105,3 +104,4 @@ def class_armor_selection():
                         stealth=stealth-20
                         socialism=socialism-20
                         recovery=recovery-20
+                        player_class="J"
