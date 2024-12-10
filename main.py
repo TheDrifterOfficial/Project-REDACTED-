@@ -2,12 +2,6 @@ n="TheDrifter"
 from delayed_print import*
 from callstats import call_stats
 
-from callstats import recovery
-from callstats import resistance
-from callstats import socialism
-from callstats import stealth
-from callstats import durability
-
 delay_print("Hello adventurer, you have joined the magical world of BitLand, where anything can happen.")
 delay_print("\nThis is your first step in becoming, legend.")
 delay_print("\nBut first, any adventurer must be known by some special name. What is your name?")
@@ -78,7 +72,7 @@ if c == "no" or c == "N" or c == "NO" or c == "No" or c == "n" or  c == "nn" or 
 delay_print("Well thats a great name, ")
 delay_print(n)
 delay_print(".")
-delay_print("\nSo, I guess you need some backstory.")
+delay_print("\n\n\n\n\nSo, I guess you need some backstory.")
 delay_print("\nLong ago, a traveler came into the town of NewOneLand.")
 delay_print("\nShe promised riches and well-being for everyone.")
 delay_print("\nThere was only one condition.")
@@ -90,8 +84,13 @@ delay_print(n)
 delay_print(".")
 
 
+from callstats import recovery
+from callstats import resistance
+from callstats import socialism
+from callstats import stealth
+from callstats import durability
 
-delay_print("\nAs part of you helping us, you will need some armour.")
+delay_print("\n\n\n\nAs part of you helping us, you will need some armour.")
 delay_print("\nPlease select your armour:")
 delay_print("\nIron Armour (+40 resistance, 7/10 durability) / Leather Armour (+30 resistance, 10/10) / Chainmail Armour (+60 resistance, 4/10 durability)")
 delay_print("\nI for Iron, L for Leather, C for Chainmail: ")
@@ -142,7 +141,7 @@ else:
             if a == "A":
                 resistance+=10
                 durability+=3
-delay_print("\nVery well, now it is time to pick your class.")
+delay_print("\n\nVery well, now it is time to pick your class.")
 delay_print("\nPlease select a class:")
 delay_print("\nWarlords: Specializes on combat, specifically close combat. Warlords can focus on one target, dealing great damage. +50 Resistance, +30 Socialism, -20 Stealth, +5 Recovery.")
 delay_print("\nScripters: Specializes in the arts of magic, casting different spells that grant benefits and punishments. Scripters are able to focus on multiple targets or one target. +5 Resistance, -40 Socialism, 0 Stealth, +50 Recovery.")
