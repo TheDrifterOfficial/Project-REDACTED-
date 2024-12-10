@@ -6,11 +6,10 @@ stealth=0
 recovery=0
 
 def call_stats():
-    from callstats import recovery
-    from callstats import resistance
-    from callstats import socialism
-    from callstats import stealth
-    from callstats import durability
+    from main import recovery
+    from main import resistance
+    from main import socialism
+    from main import stealth
     delay_print("\nHere are your statistics: Resistance = ")
     resist=str(resistance)
     delay_print(resist)
