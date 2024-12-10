@@ -1,32 +1,16 @@
 from delayed_print import*
-from class_armor_selection import*
 resistance=0
 durability=0
 socialism=0
 stealth=0
 recovery=0
-player_class=str
-
-def calculate_stats():
-    if player_class == "W":
-        resistance += 50
-        stealth -= 20
-        socialism += 30
-        recovery += 5
-    else:
-        if player_class == "S":
-            resistance += 5
-            stealth += 0
-            socialism += 40
-            recovery += 50
-        else:
-            if player_class == "P":
-                resistance += 0
-                stealth += 50
-                socialism += 0
-                recovery += 10
 
 def call_stats():
+    from callstats import recovery
+    from callstats import resistance
+    from callstats import socialism
+    from callstats import stealth
+    from callstats import durability
     delay_print("\nHere are your statistics: Resistance = ")
     resist=str(resistance)
     delay_print(resist)
