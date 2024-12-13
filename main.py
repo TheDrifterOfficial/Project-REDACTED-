@@ -2,7 +2,7 @@ n="TheDrifter"
 from delayed_print import*
 from callstats import call_stats
 
-delay_print("Hello adventurer, you have joined the magical world of BitLand, where anything can happen.")
+delay_print("Hello adventurer, you have joined the magical world of [REDACTED], where anything can happen.")
 delay_print("\nThis is your first step in becoming, legend.")
 delay_print("\nBut first, any adventurer must be known by some special name. What is your name?")
 
@@ -73,7 +73,7 @@ delay_print("Well thats a great name, ")
 delay_print(n)
 delay_print(".")
 delay_print("\n\n\n\n\nSo, I guess you need some backstory.")
-delay_print("\nLong ago, a traveler came into the town of NewOneLand.")
+delay_print("\nLong ago, a traveler came into the town of [REDACTED].")
 delay_print("\nShe promised riches and well-being for everyone.")
 delay_print("\nThere was only one condition.")
 delay_print("\nThat everyone would plead allegiance and loyalty to the traveler.")
